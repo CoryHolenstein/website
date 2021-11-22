@@ -15,7 +15,7 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('default_service', 'template_contactus', form.current, 'user_g4oYOtObrTqkhRVkjkxKh')
+        emailjs.sendForm('service_portfolio_site', 'template_portfolio', form.current, 'user_g4oYOtObrTqkhRVkjkxKh')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
