@@ -4,6 +4,7 @@ import React, { useState, Component, useEffect, createContext, useContext } from
 import About from './About';
 import Contact from './Contact';
 import Projects from './Projects';
+import Footer from './Footer';
 import NavigationBar from '../GlobalHooks/NavigationBar'
 
 const Main = () => {
@@ -20,10 +21,11 @@ const Main = () => {
 
 
         <div className="App">
-            <NavigationBar/>
+         
             <About />
             <Projects />
             <Contact />
+            <Footer />
         </div>
     );
  
