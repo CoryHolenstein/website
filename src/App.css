@@ -7,20 +7,17 @@
 }
 .about-page {
     width: 100%;
-    height: 120vh;
     background-size: contain;
     border: 3px solid black;
 }
 .projects-page {
     width: 100%;
-    height: 70vh;
     background-size: contain;
     border: 3px solid black;
     
 }
 .contact-page {
     width: 100%;
-    height: 85vh;
     background-size: contain;
     border: 3px solid black;
 }

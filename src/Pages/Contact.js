@@ -42,7 +42,6 @@ const Contact = () => {
                 <input type="email" name="email" /> <br></br>
                 <label>Message: </label>
                 <textarea name="message" rows="2" cols="20" />  <br></br>
-                <input type="file" name="file" /> <br></br>
                 <input type="submit" value="Send" /> <br></br>
             </form>
             <p>{emailResponse}</p>
