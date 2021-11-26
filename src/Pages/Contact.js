@@ -27,6 +27,8 @@ const Contact = () => {
                 console.log(error.text);
             });
         setEmailResponse("Email sent!");
+        setTimeout(() => { setEmailResponse("")}, 4500);
+      
         e.target.reset();
     }
 
@@ -44,7 +46,7 @@ const Contact = () => {
                 <textarea name="message" rows="2" cols="20" />  <br></br>
                 <input type="submit" value="Send" /> <br></br>
             </form>
-            <p>{emailResponse}</p>
+            <h3 className="email-response">{emailResponse}</h3>
           
             <h1> Connect</h1>
             <a href="https://www.linkedin.com/in/cory-holenstein" title="linkedin image">
