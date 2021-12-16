@@ -4,6 +4,7 @@ import About from './Pages/About';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
 import Error from './Pages/Error';
+import MorningStar from './Pages/Project Pages/MorningStar';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                       <Route path="/Main" component={Main} />
                       <Route path="/About" component={About} />
                       <Route path="/Contact" component={Contact} />
+                      <Route path="/MorningStar" component={MorningStar} />
                       <Route path="/Projects" component={Projects} />
                       <Route path="/Error" component={Error} />
                     </Switch>
