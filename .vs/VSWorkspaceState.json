@@ -2,10 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\GlobalHooks",
+    "\\src\\Icons",
     "\\src\\Pages",
     "\\src\\Pages\\Project Pages",
     "\\src\\Photos"
   ],
-  "SelectedNode": "\\src\\Pages\\Project Pages\\MorningStar.js",
+  "SelectedNode": "\\src\\Pages\\About.js",
   "PreviewInSolutionExplorer": false
 }

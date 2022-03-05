@@ -5,6 +5,7 @@ import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
 import Error from './Pages/Error';
 import MorningStar from './Pages/Project Pages/MorningStar';
+import GoogleBooksAPI from './Pages/Project Pages/GoogleBooksAPI';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                       <Route path="/About" component={About} />
                       <Route path="/Contact" component={Contact} />
                       <Route path="/MorningStar" component={MorningStar} />
+                      <Route path="/GoogleBooksAPI" component={GoogleBooksAPI} />
                       <Route path="/Projects" component={Projects} />
                       <Route path="/Error" component={Error} />
                     </Switch>

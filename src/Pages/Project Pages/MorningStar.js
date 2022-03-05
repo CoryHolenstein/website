@@ -21,7 +21,7 @@ const MorningStar = () => {
             <p>Here's an image of their old website -</p> 
             <img src={oldsite} height="325" width="325" alt="old morningstar dance website" />
 
-            <p>Here's a link to my live project of the website:  <a href="https://capstone-morningstar-65bcc.web.app/Home" title="linkedin image"> MorningStar Dance Project </a></p>
+            <p>Here's a link to my live project of the website:  <a href="https://capstone-morningstar-65bcc.web.app/Home"> MorningStar Dance Project </a></p>
             <NavLink to="/">Back to Portfolio home page</NavLink>
            
               </div>

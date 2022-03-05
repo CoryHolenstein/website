@@ -17,7 +17,11 @@ const Projects = () => {
                 <img src={Github} width="100" height="60" alt="github icon png background" />
             </Button></a>
             <h2>Specific project links</h2>
-            <div className="left-col">   <NavLink to="/MorningStar">MorningStar Dance</NavLink><br></br></div>
+            <div className="left-col">
+                <NavLink to="/MorningStar">MorningStar Dance</NavLink><br></br>
+                <NavLink to="/GoogleBooksAPI">Google Books API</NavLink><br></br>
+
+            </div>
             <div className="center-col"> </div>
             <div className="right-col"> </div>
 

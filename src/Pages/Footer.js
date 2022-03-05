@@ -15,7 +15,7 @@ const Footer = () => {
 
     return (
         <div className="footer-page">
-            <h1> Thanks, don't be afraid to reach out!</h1>
+            <h1> Thanks, talk soon!</h1>
             <p>Copyright Cory Holenstein 2021</p>
 
 
