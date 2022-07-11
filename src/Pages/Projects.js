@@ -18,9 +18,10 @@ const Projects = () => {
             </Button></a>
             <h2>Specific project links</h2>
             <div className="left-col">
-                <NavLink to="/MorningStar">MorningStar Dance</NavLink><br></br>
-                <NavLink to="/GoogleBooksAPI">Google Books API</NavLink><br></br>
-                <NavLink to="/CarInventory">Car Inventory</NavLink><br></br>
+                <NavLink to="/MorningStar">React - MorningStar Dance</NavLink><br></br>
+                <NavLink to="/GoogleBooksAPI">React - Google Books API</NavLink><br></br>
+                <NavLink to="/CarInventory">C#/Asp.net - Car Inventory</NavLink><br></br>
+                <NavLink to="/StarWars">React/Asp.net - Star Wars App</NavLink><br></br>
 
             </div>
             <div className="center-col"> </div>
